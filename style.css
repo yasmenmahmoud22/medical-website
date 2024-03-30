@@ -62,23 +62,23 @@
     height: 300px
 }
 .move2photo {
-    background-image: url(../images/movephoto2.jpg);
+    background-image: url(movephoto2.jpg);
 }
 .carouselmain {
     background: -webkit-linear-gradient(270deg,#2bd9b1,#00a1ff);
     height: 570px;
 }
 .comment1 {
-    background-image: linear-gradient(rgb(26 96 100 / 61%),rgb(10 133 110 / 87%)),url(../images/comment1.jpg);
+    background-image: linear-gradient(rgb(26 96 100 / 61%),rgb(10 133 110 / 87%)),url(comment1.jpg);
     transition: 0.3s;
     margin-left: 80px;
 }
 .comment2 {
-    background-image: linear-gradient(rgb(26 96 100 / 61%),rgb(10 133 110 / 87%)),url(../images/comment2.png);
+    background-image: linear-gradient(rgb(26 96 100 / 61%),rgb(10 133 110 / 87%)),url(comment2.png);
     transition: 0.3s;
 }
 .comment3 {
-    background-image: linear-gradient(rgb(26 96 100 / 61%),rgb(10 133 110 / 87%)),url(../images/comment3.png);
+    background-image: linear-gradient(rgb(26 96 100 / 61%),rgb(10 133 110 / 87%)),url(comment3.png);
     transition: 0.3s;
 }
 
@@ -92,13 +92,13 @@
     position: relative;
 }
 .comment1:hover {
-    background-image: linear-gradient(rgb(118 124 123 / 55%),rgb(48 121 129)),url(../images/comment1.jpg) !important;
+    background-image: linear-gradient(rgb(118 124 123 / 55%),rgb(48 121 129)),url(comment1.jpg) !important;
 }
 .comment2:hover {
-    background-image: linear-gradient(rgb(118 124 123 / 55%),rgb(48 121 129)),url(../images/comment2.png) !important;
+    background-image: linear-gradient(rgb(118 124 123 / 55%),rgb(48 121 129)),url(comment2.png) !important;
 }
 .comment3:hover {
-    background-image: linear-gradient(rgb(118 124 123 / 55%),rgb(48 121 129)),url(../images/comment3.png) !important;
+    background-image: linear-gradient(rgb(118 124 123 / 55%),rgb(48 121 129)),url(comment3.png) !important;
 }
 .comment1:hover, .comment2:hover, .comment3:hover {
     width: 280px;
@@ -206,39 +206,39 @@
     box-shadow: -5px 5px 20px 10px rgb(201 198 241);
 }
 .joinimg1 {
-    background-image: url(../images/facebookicon.png);
+    background-image: url(facebookicon.png);
 }
     .joinimg1:hover {
-        background-image: linear-gradient(rgb(118 124 123 / 35%),rgb(48 111 129)),url(../images/facebookicon.png) !important;
+        background-image: linear-gradient(rgb(118 124 123 / 35%),rgb(48 111 129)),url(facebookicon.png) !important;
     }
 .joinimg2 {
-    background-image: url(../images/whatsicon2.png);
+    background-image: url(whatsicon2.png);
 }
 
     .joinimg2:hover {
-        background-image: linear-gradient(rgb(118 124 123 / 35%),rgb(48 111 129)),url(../images/whatsicon2.png) !important;
+        background-image: linear-gradient(rgb(118 124 123 / 35%),rgb(48 111 129)),url(whatsicon2.png) !important;
     }
 
 .joinimg3 {
-    background-image: url(../images/twittericon.png);
+    background-image: url(twittericon.png);
 }
 
     .joinimg3:hover {
-        background-image: linear-gradient(rgb(118 124 123 / 35%),rgb(48 111 129)),url(../images/twittericon.png) !important;
+        background-image: linear-gradient(rgb(118 124 123 / 35%),rgb(48 111 129)),url(twittericon.png) !important;
     }
 .joinimg4 {
-    background-image: url(../images/instegramicon.png);
+    background-image: url(instegramicon.png);
 }
 
     .joinimg4:hover {
-        background-image: linear-gradient(rgb(118 124 123 / 35%),rgb(48 111 129)),url(../images/instegramicon.png) !important;
+        background-image: linear-gradient(rgb(118 124 123 / 35%),rgb(48 111 129)),url(instegramicon.png) !important;
     }
 .joinimg5 {
-    background-image: url(../images/linkedinicon.png);
+    background-image: url(linkedinicon.png);
 }
 
     .joinimg5:hover {
-        background-image: linear-gradient(rgb(118 124 123 / 35%),rgb(48 111 129)),url(../images/linkedinicon.png) !important;
+        background-image: linear-gradient(rgb(118 124 123 / 35%),rgb(48 111 129)),url(linkedinicon.png) !important;
     }
 
 .divofjoin a {
@@ -248,14 +248,14 @@
     color: rgb(118 124 123 / 35%) !important;
 }
 .imginfooter {
-    background-image: url(../images/medicallogo.png);
+    background-image: url(medicallogo.png);
     height: 89px;
     width: 136px;
     background-size: cover;
     box-shadow: -5px -1px 42px 24px rgb(201 198 241);
 }
     .imginfooter:hover {
-        background-image: linear-gradient(rgb(118 124 123 / 25%),rgb(48 111 119)),url(../images/medicallogo.png) !important;
+        background-image: linear-gradient(rgb(118 124 123 / 25%),rgb(48 111 119)),url(medicallogo.png) !important;
     }
     /*-------------------------------------------------------------------------------*/
    /*section of moving photo*/
