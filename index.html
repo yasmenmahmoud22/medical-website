@@ -1,0 +1,890 @@
+<!Doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width-=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>medicale website</title>
+</head>
+
+<body>
+    <!--nav bar-->
+    <nav class="navbar navbar-expand-lg navbar-light p-3 mb-2 w-100" style="background-color: #00a1ff1a;position:fixed;z-index:100;margin-top:-90px;">
+        <div class="container-fluid">
+            <input type="image" src="images/Your-Doctor logo.jpg" class="  rounded-circle mx-3 shadow" alt="pic" height="65" width="110" fdprocessedid="ppd96t">
+            <a class="navbar-brand" href="#">Ask Your Doctor</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active fs-5 text-info" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 text-info" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-5 text-info" href="#">Health Care</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle fs-5 text-info" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            More
+                        </a>
+                        <ul class="dropdown-menu fs-5 text-info border border-info" aria-labelledby="navbarDropdown" style="background: rgb(53 141 193 / 69%); ">
+                            <li><a class="dropdown-item text-info" href="#"><b>News</b></a></li>
+                            <li><a class="dropdown-item text-info" href="#"><b>Health Tips</b></a></li>
+                            <li><a class="dropdown-item text-info" href="#"><b>Evaluation And Opinions Of People</b></a></li>
+                            <li><a class="dropdown-item text-info" href="#"><b>Support Groups</b></a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2 border border-info" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn bg-info text-light fs-6" type="submit">Search</button>
+                </form>
+                <button class="btn bg-info text-light fs-6 ms-2" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Login</button>
+
+
+
+            </div>
+        </div>
+    </nav>
+    <!------------------------------------------------------------------------------------------------------------------------->
+    <!--form the login-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content border border-info" style="background: rgb(86 184 190 / 25%);">
+                <div class="modal-header" style="background-color: #00a1ff1a;">
+                    <h5 class="modal-title fs-4" id="exampleModalLabel">Login</h5>
+                    <button type="button" class="btn-close btn-close-white fs-5" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" style="background-color: #00a1ff1a;">
+                    <form>
+                        <div class="mb-3">
+                            <label for="recipient-name" class="col-form-label text-info fs-5"><b>Email:</b></label>
+                            <input type="email" class="form-control border-info" id="recipient-name">
+                            <p class="form-text text-light fs-6"><b>We'll never share your email with anyone else.</b></p>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message-text" class="col-form-label text-info fs-5"><b>Password:</b></label>
+                            <input type="password" class="form-control border-info" id="recipient-name">
+                        </div>
+                        <div class="mb-3">
+                            <div class="form-check form-switch">
+                                <input class="form-check-input bg-info" type="checkbox" role="switch" checked="">
+                                <label class="form-check-label text-info" for="flexSwitchCheckChecked">Remmember me</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer" style="background-color: #00a1ff1a;">
+                    <button type="button" class="btn btn-info text-light mx-auto fs-5">Login</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------------------------------------------------------------------------------------------------>
+    <!------------------------------------------------------------------------------------------------------------------------->
+    <!--moving photos(carousel)-->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" style="margin-top:80px;">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <!--links in right side-->
+        <div class="container linksofrightside">
+            <div class="column">
+                <div class="col">
+                    <a href="#"><i class='bx bxl-facebook-square fs-1'></i></a>
+                </div>
+                <div class="col">
+                    <a href="#"><i class='bx bxl-whatsapp-square fs-1'></i></a>
+                </div>
+                <div class="col">
+                    <a href="#"><i class='bx bxl-instagram-alt fs-1'></i></a>
+                </div>
+                <div class="col">
+                    <a href="#"><i class='bx bxl-twitter fs-1'></i></a>
+                </div>
+                <div class="col">
+                    <a href="#"><i class='bx bxl-linkedin-square fs-1'></i></a>
+                </div>
+            </div>
+        </div>
+        <!--end links in right side-->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/high doctor.jpg" class="d-block w-100 onedoctor" alt="...">
+                <div class="carousel-caption d-md-block fs-5">
+                    <h5>Ask A Doctor</h5>
+                    <p>Talk to a doctor online now.</p>
+                    <button class="btn bg-info text-light fs-6 ms-2" type="submit">Start Chat</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/body photo.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block fs-5">
+                    <h5>
+                        Describe Your Issue
+                    </h5>
+                    <p>Get Personalized Medical Answers.</p>
+                    <button class="btn bg-info text-light fs-6 ms-2" type="submit">Start Chat</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/high doctors.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption  d-md-block fs-5">
+                    <h5>To Help You</h5>
+                    <p>Many Doctors Are Online Across All Areas Of Health.</p>
+                    <button class="btn bg-info text-light fs-6 ms-2" type="submit">Start Chat</button>
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!------------------------------------------------------------------------------------------------------------------------->
+    <!--section of  welcome(card)-->
+    <div class="card text-center shadow-lg" style="background: rgb(86 184 190 / 50%);">
+        <div class="card-header mt-5 ">
+            <img src="images/chat.jpeg" class="card-img-top image" alt="..." style="width:400px;height:300px;">
+        </div>
+        <div class="card-body text-white shadow-lg p-3 fs-4">
+            <h5 class="card-title fs-1">Welcome</h5>
+            <p class="card-text">Chat at any time with doctors from all areas of health online from home.</p>
+            <p>
+                <a class="btn btn-info fs-4 text-light" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    More...
+                </a>
+            </p>
+            <div class="collapse" id="collapseExample">
+                <div class="card card-body text-secondary fs-6">
+                    Save hundreds on health & medical guidance from counselors, dentists, and more.
+                    Unlimited chats, plus discounts on alternative medicine & other resources. Join for only 20$ and Cancel anytime.
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------------------------------------------------------------------------------------------------------->
+    <hr>
+    <!--(Accordion) section of popular problems-->
+    <div class="divofh1 mx-auto my-3 p-5  text-light text-center text-shadow rounded-3 shadow-lg bg-info">
+        <h1>Popular Problems</h1>
+    </div>
+    <div class="accordion" id="accordioncollapse">
+        <div class="accordion-item">
+            <h2 class="accordion-header " id="head1">
+                <button class="accordion-button collapsed btn-outline-info  title shadow-lg " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" fdprocessedid="wl0i7l">
+                    Diabetes
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="head1" data-bs-parent="#accordioncollapse">
+                <div class="accordion-body border-info text-secondary">
+                    Save hundreds on health & medical guidance about these.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="head2">
+                <button class="accordion-button collapsed btn-outline-info title shadow-lg " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" fdprocessedid="oj9p5">
+                    Tooth Pain
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="head2" data-bs-parent="#accordioncollapse">
+                <div class="accordion-body border-info text-secondary">
+                    Save hundreds on health & medical guidance from dentists.
+                </div>
+            </div>
+            <hr />
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="head3">
+                    <button class="accordion-button collapsed btn-outline-info shadow-lg title" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" fdprocessedid="00duc">
+                        Blood Pressure
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="head3" data-bs-parent="#accordioncollapse">
+                    <div class="accordion-body border-info text-secondary">
+                        Save hundreds on health & medical guidance from counselors.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="head4">
+                    <button class="accordion-button collapsed btn-outline-info text-info  shadow-lg title" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" fdprocessedid="00duc">
+                        Skin ProbleMs
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="head4" data-bs-parent="#accordioncollapse">
+                    <div class="accordion-body border-info text-secondary">
+                        Save medical solutions for these problems.
+                    </div>
+                </div>
+            </div>
+
+            <!-- /collapse -->
+            <!------------------------------------------------------------------------------------------------------------------->
+            <!--section of translate chats(card)-->
+            <hr>
+            <div class="divofh1 mx-auto mt-3 p-5  text-light text-center text-shadow rounded-3 shadow-lg bg-info ">
+                <h1>Translate Chats</h1>
+            </div>
+            <!-- card1 -->
+            <div class="card p-3  text-white shadow-lg" style="border-top-left-radius: 0; border-top-right-radius:0 ;background: rgb(86 184 190 / 50%);">
+                <div class="card-body">
+                    <h4 class="card-title ">�Write and Translate <a href="https://translate.google.com/?source=gtx" target="_blank" rel="noopener">Press Here</a></h4>
+                    <p>For Easy Chat</p>
+                    <button class="btn btn-light text-info border border-2 btntranslate .btntranslate::before .btntranslate::after shadow-lg " onclick="copyToClipboard('sentence')" id="btnCopy" style="font-size: 18px;" fdprocessedid="tk94fg">
+                        Copy
+                    </button>
+                    <br>
+                    <textarea id="sentence" class="form-control mx-auto mt-3" rows="5" placeholder="translate:" name="text"></textarea>
+                </div>
+            </div>
+            <!-- /card1 -->
+        </div>
+    </div>
+    <!------------------------------------------------------------------------------------------------------------------->
+    <hr class="my-4" />
+
+    <div class="movingphotoaftertranslate fixedimg shadow-lg">
+
+    </div>
+    <!------------------------------------------------------------------------------------------------------------------->
+    <!--section after movingpicture-->
+    <!--(grid card)-->
+    <hr />
+    <div class="divofh1 mx-auto p-5  text-light text-center text-shadow rounded-3 shadow-lg bg-info ">
+        <h1>What you get:</h1>
+    </div>
+    <div class="row row-cols-1 row-cols-md-2 g-4  p-5 mx-auto" style="background: rgb(86 184 190 / 25%)">
+
+        <div class="col col-sm-12 col-xl-6">
+            <div class="card shadow-lg cardover">
+                <img src="images/talktodoctor.jpg" class="card-img-top chat1to1" alt="...">
+                <div class="card-body  text-light" style="background: rgb(86 184 190 / 60%);">
+                    <h5 class="card-title h5">Chat with a Doctor 1:1</h5>
+                    <p class="card-text"> Connect with verified doctors in minutes.Your membership can save you time & money every time you use it.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col col-sm-12 col-xl-6">
+            <div class="card shadow-lg cardover">
+                <img src="images/unlimitedchat.jpg" class="card-img-top unlimitedimg unlimitedimg2" alt="...">
+                <div class="card-body text-light" style="background: rgb(86 184 190 / 60%);">
+                    <h5 class="card-title h5">Unlimited chats</h5>
+                    <p class="card-text">Chat with board-certified doctors until you are satisfied. About any health issues from diabetes to mental health and everything.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col col-sm-12 col-xl-6">
+            <div class="card shadow-lg cardover">
+                <img src="images/Mentalcounselling.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-light" style="background: rgb(86 184 190 / 60%);">
+                    <h5 class="card-title h5">Mental health counseling</h5>
+                    <p class="card-text">Get support for stress, grief, family issues, life transitions, all from the comfort of home.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col col-sm-12 col-xl-6">
+            <div class="card shadow-lg cardover">
+                <img src="images/doctorlaptop.jpg" class="card-img-top acrossimg" alt="..." >
+                <div class="card-body text-light" style="background: rgb(86 184 190 / 60%);">
+                    <h5 class="card-title h5">Across all areas</h5>
+                    <p class="card-text">We know life can be hard. So we try to make it simple: no forms or outrageous fees, no appointments that take weeks to book.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col col-sm-12 col-xl-6">
+            <div class="card shadow-lg cardover">
+                <img src="images/atanyhour.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-light" style="background: rgb(86 184 190 / 60%);">
+                    <h5 class="card-title h5">At any hour</h5>
+                    <p class="card-text">A team of doctors is standing by around the clock so you can stop any health issue quickly and effectively.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col col-sm-12 col-xl-6">
+            <div class="card shadow-lg cardover">
+                <img src="images/Family.jpg" class="card-img-top familyimg" alt="..." >
+                <div class="card-body text-light" style="background: rgb(86 184 190 / 60%);">
+                    <h5 class="card-title h5">For your family</h5>
+                    <p class="card-text">Share your membership in order to get the most bang for your buck and keep the entire family cared for.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="move2photo fixedimg shadow-lg">
+
+    </div>
+    <!------------------------------------------------------------------------------------------------------------------->
+    <!--section of verified Doctors(caresol)-->
+    <div class="carouselmain shadow-lg">
+        <div>
+            <h1 class="divofh1 mx-auto p-5 text-light text-center text-shadow rounded-3 shadow-lg bg-info" style="font-size:30px;">verified Doctors Across all areas of health</h1>
+            <p class="text-center text-light fs-4">Specialties include: Digestive Disorder, Migraine, Symptom Checker, Medication and more</p>
+        </div>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/doctor-id-card1.png" class="d-block mx-auto" alt="..." style="width:400px;height:300px;">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/doctor_id_card2.jpg" class="d-block mx-auto" alt="..." style="width:400px;height:300px;">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/doctorcard6.jpg" class="d-block mx-auto" alt="..." style="width:400px;height:300px;">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/doctor-card4.png" class="d-block mx-auto" alt="..." style="width:400px;height:300px;">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/doctorcard5.png" class="d-block mx-auto" alt="..." style="width:400px;height:300px;">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/doctorcard3.png" class="d-block mx-auto" alt="..." style="width:400px;height:300px;">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!------------------------------------------------------------------------------------------------------------------->
+    <!--section of how it works (card)-->
+    <hr>
+    <div class="divofh1 mx-auto mt-3 p-5  text-light text-center text-shadow rounded-3 shadow-lg bg-info ">
+        <h1>How It Works</h1>
+    </div>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 p-5 shadow-lg" style="background: rgb(86 184 190 / 25%)">
+        <div class="col">
+            <div class="card shadow-lg">
+                <img src="images/doctors'aasistant.jpg" class="card-img-top" alt="...">
+                <div class="card-body" style="background: rgb(86 184 190 / 60%);">
+                    <h5 class="card-title h5" style="display:inline;margin-right:50px;">1.Connect</h5>
+                    <!--start collapse inside card-->
+                    <span>
+                        <a class="btn btn-light text-info" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">KNOW MORE</a>
+
+                    </span>
+                    <div class="row">
+                        <div class="col">
+                            <div class="collapse multi-collapse" id="multiCollapseExample1" style="width:300px;">
+                                <div class="card card-body text-info">
+                                    Tell the Doctors' Assistant what's going on so that she can find the best doctor for your situation..
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end collapse-->
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card shadow-lg">
+                <img src="images/healthtests.jpg" class="card-img-top" alt="...">
+                <div class="card-body " style="background: rgb(86 184 190 / 60%);">
+                    <h5 class="card-title h5" style="display:inline;margin-right:10px;">2.Ask A Doctor</h5>
+                    <!--start collapse inside card-->
+                    <span>
+                        <a class="btn btn-light text-info" data-bs-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">KNOW MORE</a>
+
+                    </span>
+                    <div class="row">
+                        <div class="col">
+                            <div class="collapse multi-collapse" id="multiCollapseExample2" style="width:300px;">
+                                <div class="card card-body text-info">
+                                    Connect with the doctor via email, text or phone. Include photos or test results to get a comprehensive answer.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end collapse-->
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card shadow-lg">
+                <img src="images/Computer-to-Mobile-Visit-Image.jpg" class="card-img-top stayhealthyimg" alt="..." >
+                <div class="card-body" style="background: rgb(86 184 190 / 60%);">
+                    <h5 class="card-title h5" style="display:inline;margin-right:20px;">3.Stay healthy</h5>
+                    <!--start collapse inside card-->
+                    <span>
+                        <a class="btn btn-light text-info" data-bs-toggle="collapse" href="#multiCollapseExample3" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">KNOW MORE</a>
+
+                    </span>
+                    <div class="row">
+                        <div class="col">
+                            <div class="collapse multi-collapse" id="multiCollapseExample3" style="width:300px;">
+                                <div class="card card-body text-info">
+                                    You have instant access to thousands of doctors and specialists, 24/7, to support your physical and mental well-being.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end collapse-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------------------------------------------------------------------------------------------------------>
+    <!--section of how doctors benefit you(grid system)-->
+    <hr />
+    <div style="background: rgb(86 184 190 / 25%)">
+        <div>
+            <h1 class="divofh1 mx-auto p-5 text-light text-center text-shadow rounded-3 shadow-lg bg-info" style="font-size:30px;">How Doctors Benefit You</h1>
+
+        </div>
+        <div class="container mt-5 shadow-lg">
+            <div class="row">
+                <div class="col">
+                    <img src="images/heart.svg" class="text-center" style="margin-left:25%" />
+                    <p class="text-secondary">Help diagnose health issues</p>
+                </div>
+                <div class="col">
+                    <i class='bx bxs-capsule fs-1' style="margin-left:25%"></i>
+                    <p class="text-secondary">Suggest natural treatments<br /> or home remedies</p>
+                </div>
+                <div class="col">
+                    <img src="images/iconphoto1.svg" style="margin-left:20%" />
+                    <p class="text-secondary">Get second opinions</p>
+                </div>
+                <div class="col">
+                    <i class='bx bx-dollar fs-1' style="margin-left:40%"></i>
+                    <p class="text-secondary">Avoid high-priced visits to doctors</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------------------------------------------------------------------------------------------->
+    <!--section of Comments, opinions or some evaluations on Drs(Image overlays in card)-->
+    <hr />
+    <div class="divofh1 mx-auto p-5  text-light text-center text-shadow rounded-3 shadow-lg bg-info">
+        <h1>Latest comments</h1>
+    </div>
+    <div class="maincontainer shadow-lg" style="background: rgb(86 184 190 / 25%);">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 gap-3 p-5">
+            <div class="col-sm-12 card bg-dark text-white comment comment1">
+
+                <div class="card-img-overlay text-light">
+                    <p class="card-text"><i class='bx bxs-chat'></i>Spoke to Dr Mike, he was wonderful and truly caring about our situation. Thank you for being so kind!<br /><i class='bx bxs-user'></i>From:Kevin Weston</p>
+                    <p class="card-text"><i class='bx bx-history'></i>10 mins ago</p>
+                    
+                </div>
+                <img src="images/comment1.jpg" class="rounded-circle shadow-lg border border-info" style="width:100px;height:100px;position:absolute;bottom:40px;display:inline;" />
+                <div class="content">
+                    <h5 class="card-title h5 fs-5" style="position:absolute;bottom:100px;right:30px;">DR.Mike andro</h5>
+                    <p style="position:absolute;bottom:70px;right:90px;"><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i></p>
+                    <p style="position:absolute;bottom:5px;right:32px;">A doctor specializing in<br /> the digestive system<br />and stomach problems.</p>
+                </div>
+            </div>
+            <!---->
+            <div class="col-sm-12 card bg-dark text-white comment comment2">
+
+                <div class="card-img-overlay text-light">
+                    <p class="card-text"><i class='bx bxs-chat'></i> Really thanks for the quick response and at any time.I seriously don't know what would have happened to my son if you didn't answer my questions.<br /><i class='bx bxs-user'></i>From:Max2George </p>
+                    <p class="card-text"><i class='bx bx-history'></i>Last Week ago</p>
+                </div>
+                <img src="images/comment2.png" class="rounded-circle shadow-lg border border-info" style="width:100px;height:100px;position:absolute;bottom:40px;display:inline;" />
+                <h5 class="card-title h5 fs-5" style="position:absolute;bottom:100px;right:10px;">DR.Emma Thomas</h5>
+                <p style="position:absolute;bottom:70px;right:90px;"><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i></p>
+                <p style="position:absolute;bottom:40px;right:92px;">kids doctor.</p>
+
+            </div>
+            <!---->
+            <div class="col-sm-12 card bg-dark text-white comment comment3">
+
+                <div class="card-img-overlay text-light">
+                    <p class="card-text"><i class='bx bxs-chat'></i>Doctors are very knowledgeable and you don't have to wait long.<br /><i class='bx bxs-user'></i>From:Alia_Amir</p>
+                    <p class="card-text"><i class='bx bx-history'></i>2 months ago</p>
+                </div>
+                <img src="images/comment3.png" class="rounded-circle shadow-lg border border-info" style="width:100px;height:100px;position:absolute;bottom:40px;display:inline;" />
+                <h5 class="card-title h5 fs-5" style="position:absolute;bottom:100px;right:0px;">DR.Jack Patterson</h5>
+                <p style="position:absolute;bottom:70px;right:90px;"><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star-half'></i></p>
+                <p style="position:absolute;bottom:40px;right:92px;">Dentist.</p>
+
+            </div>
+        </div>
+    </div>
+    <!------------------------------------------------------------------------------------------------------------->
+    <!--section of health care advices(horizontal card)-->
+    <hr />
+    <section style="background: rgb(86 184 190 / 25%)">
+        <div class="divofh1 mx-auto  p-5 text-light text-center text-shadow rounded-3 shadow-lg bg-info">
+            <h1>health care advices</h1>
+        </div>
+        <div class="card healthcarecard mx-auto mt-5 text-light" style="width:87%;background: rgb(73 161 167 / 22%);">
+            <div class="row g-0">
+                <div class="col-md-4 col-sm-2" style="width: 34.333333%;">
+                    <img src="images/brain.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8 col-sm-10">
+                    <div class="card-body healthcarebody">
+                        <h1 class="card-title healthcarecard-title fs-1"><a href="#">Mental Health</a></h1>
+                        <div class="healthcarecard-time">
+                            <time datetime="2022-01-27 12:00:00">
+                                <i class='bx bxs-calendar'></i>Mon, January 27th 2022
+                            </time>
+                        </div>
+                        <!--(progress)-->
+                        <div class="progress" style="height:10px;">
+                            <div class="progress-bar progress-bar-striped item progress-bar-animated" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <!--end progress-->
+                        <div class="healthcarecard-title-txt">
+                            Never resort to using drugs and avoid depression.
+                            Do not let your time be wasted, but rather use your time for what is beneficial.
+                            If you reach the stage of depression, one of its symptoms is that it may include
+                            significant appetite and weight loss, sleep problems, and more.
+                            So seek the help of one of our psychiatrists here.
+                            Use social media at specific times and only when it is beneficial.
+                        </div>
+                        <div>
+                            <h4 class="text-primary item2 ">Take care of your mental health.</h4>
+                        </div>
+                        <!--grid-->
+                        <div class="container">
+                            <div class="row buttons mt-5 mx-auto">
+                                <div class="col col-sm-3 btn1">
+                                    <a href="https://www.nytimes.com/2021/12/30/well/mind/mental-health-advice-2022.html" target="_blank">
+                                        <button type="button" class=" btn btn-info text-light" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top">
+                                            <i class='bx bx-search'></i>Read More
+                                        </button>
+                                    </a>
+                                </div>
+                                <div class="col col-sm-3 btn2">
+                                    <a href="#">
+                                        <button type="button" class="btn btn-info text-light" data-bs-toggle="tooltip" data-bs-placement="right" title="Tooltip on right">
+                                            <i class='bx bxs-time'></i>55 Min ago
+                                        </button>
+                                    </a>
+                                </div>
+                                <div class="col col-sm-3 btn3">
+                                    <a href="https://www.youtube.com/watch?v=WNU7BYIXBjo" target="_blank">
+                                        <button type="button" class="btn btn-info text-light" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Tooltip on bottom">
+                                            <i class='bx bxs-right-arrow'></i>Play Video
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end grid-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end mental card-->
+        <!--card2 Diet & Weight Management card-->
+        <div class="card healthcarecard mx-auto mt-5 text-light" style="width:87%;background: rgb(73 161 167 / 22%);">
+            <div class="row g-0">
+                <div class="col-md-4 col-sm-2" style="width: 34.333333%;">
+                    <img src="images/diet.jpeg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8 col-sm-10">
+                    <div class="card-body healthcarebody">
+                        <h1 class="card-title healthcarecard-title fs-1"><a href="#">Diet & Weight Management</a></h1>
+                        <div class="healthcarecard-time">
+                            <time datetime="2022-01-27 12:00:00">
+                                <i class='bx bxs-calendar'></i>Mon, January 27th 2022
+                            </time>
+                        </div>
+                        <!--(progress)-->
+                        <div class="progress" style="height:10px;">
+                            <div class="progress-bar progress-bar-striped item progress-bar-animated bg-success" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <!--end progress-->
+                        <div class="healthcarecard-title-txt">
+                            stay away from harmful and fatty foods. Choose a healthy diet and follow it. follow the High-Protein Diet for Weight Loss.
+                            Discover how high-protein diets may help you lose weight and feel full.
+                            eat healthy food such as vegetables.
+                        </div>
+                        <div>
+                            <h4 class="item2 text-success">Follow a healthy diet .</h4>
+                        </div>
+                        <!--grid-->
+                        <div class="container">
+                            <div class="row buttons mt-5 mx-auto">
+                                <div class="col col-sm-3 btn1">
+                                    <a href="https://www.cdc.gov/healthyweight/healthy_eating/index.html" target="_blank">
+                                        <button type="button" class=" btn btn-info text-light" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top">
+                                            <i class='bx bx-search'></i>Read More
+                                        </button>
+                                    </a>
+                                </div>
+                                <div class="col col-sm-3 btn2">
+                                    <a href="#">
+                                        <button type="button" class="btn btn-info text-light" data-bs-toggle="tooltip" data-bs-placement="right" title="Tooltip on right">
+                                            <i class='bx bxs-time'></i>55 Min ago
+                                        </button>
+                                    </a>
+                                </div>
+                                <div class="col col-sm-3 btn3">
+                                    <a href="https://www.youtube.com/watch?v=ahnl7GaV_rU" target="_blank">
+                                        <button type="button" class="btn btn-info text-light" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Tooltip on bottom">
+                                            <i class='bx bxs-right-arrow'></i>Play Video
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end grid-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end diet card-->
+        <!--card3 HEALTHY AGING -->
+        <div class="card healthcarecard mx-auto mt-5 text-light" style="width:87%;background: rgb(73 161 167 / 22%);">
+            <div class="row g-0">
+                <div class="col-md-4 col-sm-2" style="width: 34.333333%;">
+                    <img src="images/adults.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8 col-sm-10">
+                    <div class="card-body healthcarebody">
+                        <h1 class="card-title healthcarecard-title fs-1"><a href="#">HEALTHY AGING</a></h1>
+                        <div class="healthcarecard-time">
+                            <time datetime="2022-01-27 12:00:00">
+                                <i class='bx bxs-calendar'></i>Mon, January 27th 2022
+                            </time>
+                        </div>
+                        <!--(progress)-->
+                        <div class="progress" style="height:10px;">
+                            <div class="progress-bar progress-bar-striped item progress-bar-animated bg-secondary" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <!--end progress-->
+                        <div class="healthcarecard-title-txt">
+                            What Is Normal Aging? Know what's natural as you age and what's not, and learn steps you can try to delay or lessen the changes.changes With aging that may sap your energy so you must follow ways to gain more energy.Screenings You Need When You're 50+ At your annual physical.
+                        </div>
+                        <div>
+                            <h4 class="text-secondary item2">Live a healthy old age.</h4>
+                        </div>
+                        <!--grid-->
+                        <div class="container">
+                            <div class="row buttons mt-5 mx-auto">
+                                <div class="col col-sm-3 btn1">
+                                    <a href="https://www.nia.nih.gov/health/what-do-we-know-about-healthy-aging" target="_blank">
+                                        <button type="button" class=" btn btn-info text-light" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top">
+                                            <i class='bx bx-search'></i>Read More
+                                        </button>
+                                    </a>
+                                </div>
+                                <div class="col col-sm-3 btn2">
+                                    <a href="#">
+                                        <button type="button" class="btn btn-info text-light" data-bs-toggle="tooltip" data-bs-placement="right" title="Tooltip on right">
+                                            <i class='bx bxs-time'></i>55 Min ago
+                                        </button>
+                                    </a>
+                                </div>
+                                <div class="col col-sm-3 btn3">
+                                    <a href="https://www.youtube.com/watch?v=KD-FmeueFUo" target="_blank">
+                                        <button type="button" class="btn btn-info text-light" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Tooltip on bottom">
+                                            <i class='bx bxs-right-arrow'></i>Play Video
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end grid-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end card3 HEALTHY AGING -->
+        <!--card4 exercise-->
+        <div class="card healthcarecard mx-auto mt-5 text-light" style="width:87%;background: rgb(73 161 167 / 22%);">
+            <div class="row g-0">
+                <div class="col-md-4 col-sm-2" style="width: 34.333333%;">
+                    <img src="images/fitness.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8 col-sm-10">
+                    <div class="card-body healthcarebody">
+                        <h1 class="card-title healthcarecard-title fs-1"><a href="#">Fitness & Exercise</a></h1>
+                        <div class="healthcarecard-time">
+                            <time datetime="2022-01-27 12:00:00">
+                                <i class='bx bxs-calendar'></i>Mon, January 27th 2022
+                            </time>
+                        </div>
+                        <!--(progress)-->
+                        <div class="progress" style="height:10px;">
+                            <div class="progress-bar progress-bar-striped item progress-bar-animated bg-info" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <!--end progress-->
+                        <div class="healthcarecard-title-txt">
+                            you must do sports.the  Exercises Boost Your Metabolism
+                            Your next workout could set you up with a speedier metabolism.Exercises for a Healthy Heart
+                            Even taking a brisk walk for 30 minutes a day can make a big difference when it comes to exercising your heart muscle.
+                            It is not necessary to exercise in the gym, but it is also possible from home.
+                        </div>
+                        <div>
+                            <h4 class="text-info item2">Maintain your physical fitness.</h4>
+                        </div>
+                        <!--grid-->
+                        <div class="container">
+                            <div class="row buttons mt-5 mx-auto">
+                                <div class="col col-sm-3 btn1">
+                                    <a href="https://www.forbes.com/health/fitness/expert-fitness-advice/" target="_blank">
+                                        <button type="button" class=" btn btn-info text-light" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top">
+                                            <i class='bx bx-search'></i>Read More
+                                        </button>
+                                    </a>
+                                </div>
+                                <div class="col col-sm-3 btn2">
+                                    <a href="#">
+                                        <button type="button" class="btn btn-info text-light" data-bs-toggle="tooltip" data-bs-placement="right" title="Tooltip on right">
+                                            <i class='bx bxs-time'></i>55 Min ago
+                                        </button>
+                                    </a>
+                                </div>
+                                <div class="col col-sm-3 btn3">
+                                    <a href="https://www.youtube.com/watch?v=qTHVnGA5rzU" target="_blank">
+                                        <button type="button" class="btn btn-info text-light" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Tooltip on bottom">
+                                            <i class='bx bxs-right-arrow'></i>Play Video
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end grid-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end card4 exercise-->
+    <!-------------------------------------------------------------------------------------------------------->
+    <!--section of join us-->
+    <hr />
+    <div style="background: rgb(86 184 190 / 25%)">
+        <div class="divofh1 mx-auto  p-5 text-light text-center text-shadow rounded-3 shadow-lg bg-info">
+            <h1>JOIN US</h1>
+        </div>
+        <div class="row p-5 divofjoin" style="background: rgb(73 161 167 / 22%);">
+            <div class="col mt-5 text-center rounded-3 p-3" style="height: 200px; box-shadow: -5px 5px 20px 10px rgb(201 198 241); position: relative" />
+            <h3 class="h5">Subscribe</h3>
+            <a href="#">
+                <div class="joinofimgs joinimg1">
+                </div>
+            </a>
+            <h4 class=""><a href="#" class="text-info">Go to link</a></h4>
+            </div>
+            <div class="col mt-5 text-center rounded-3 p-3" style="height: 200px; box-shadow: -5px 5px 20px 10px rgb(201 198 241);">
+            <h3 class="h5">Follow</h3>
+            <a href="#">
+                <div class="joinofimgs joinimg2">
+                </div>
+            </a>
+            <h4 class=""><a href="#" class="text-info">Go to link</a></h4>
+            </div>
+            <div class="col mt-5 text-center rounded-3 p-3" style="height: 200px; box-shadow: -5px 5px 20px 10px rgb(201 198 241);">
+            <h3 class="h5">Subscribe</h3>
+            <a href="#">
+                <div class="joinofimgs joinimg3">
+                </div>
+            </a>
+            <h4 class=""><a href="#" class="text-info">Go to link</a></h4>
+            </div>
+            <div class="col mt-5 text-center rounded-3 p-3" style=" height: 200px; box-shadow: -5px 5px 20px 10px rgb(201 198 241);">
+            <h3 class="h5">Whatch</h3>
+            <a href="#">
+                <div class="joinofimgs joinimg4">
+                </div>
+            </a>
+            <h4 class=""><a href="#" class="text-info">Go to link</a></h4>
+            </div>
+            <div class="col mt-5 text-center rounded-3 p-3" style="height: 200px; box-shadow: -5px 5px 20px 10px rgb(201 198 241);">
+            <h3 class="h5">Follow</h3>
+            <a href="#">
+                <div class="joinofimgs joinimg5">
+                </div>
+            </a>
+            <h4 class=""><a href="#" class="text-info">Go to link</a></h4>
+            </div>
+       </div>
+    </div>
+    <!--end section of join us-->
+    <!------------------------------------------------------------------------------------------------------->
+    <!--footer section-->
+    <footer class="bg-info">
+        <div class="container p-5 divofjoin">
+            <div class="row text-light text-center">
+                <div class="col col-sm-12 col-md-6">
+                    <hr class="border-top border-3 border-light" />
+                    <div class="imginfooter rounded-circle mx-3">
+
+                    </div>
+                    <p class="fs-4 ask">Ask Your Doctor</p>
+                    <hr class="border-top border-3 border-light" />
+                    <p>
+                        Tel : 000-000-000<br />
+
+                        Address : EGYPT<br />
+
+                        Fax : 000-000-000<br />
+                    </p>
+                    <hr class="border-top border-3 border-light" />
+                </div>
+                <div class="col col-sm-12 col-md-6">
+                    <hr class="border-top border-3 border-light" />
+                    <div class="imginfooter rounded-circle mx-3">
+
+                    </div>
+                    <p class="fs-4 links">Important links</p>
+                    <hr class="border-top border-3 border-light" />
+                    <p>
+                        <a href="#">Gmail<br /></a>
+
+                        <a href="#">Take alook<br /></a>
+
+                        <a href="#">Your health is more important<br /></a>
+                    </p>
+                    <hr class="border-top border-3 border-light" />
+                </div>
+                <div class="col col-sm-12">
+                    <hr class="border-top border-3 border-light" />
+                    <div class="imginfooter rounded-circle mx-3">
+ 
+                    </div>
+                        <p class="fs-4 vision">Vision</p>
+                    <hr class="border-top border-3 border-light" />
+                    <p>
+                        Serveices for all<br />
+
+                        Provide best serveices<br />
+
+                        you will be better than before<br />
+                    </p>
+                    <hr class="border-top border-3 border-light" />
+                </div>
+            </div>
+            <hr class="border-top border-3 border-light" />
+            <div class="text-center text-light p-3" style=" background: -webkit-linear-gradient(0deg,#2bd9b1,#00a1ff); color: white;">
+                <h3 >COPYRIGHT &copy; YASSMEN MAHMOUD, GOOD WEBSITE. ALL RIGHTS</h3>
+            </div>
+            <hr class="border-top border-3 border-light" />
+            
+        </div>
+    </footer>
+    <!--end footer section-->
+
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+</html>
