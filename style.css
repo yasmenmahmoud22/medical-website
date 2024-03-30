@@ -1,0 +1,620 @@
+.navbar-light .navbar-brand, .modal-title, .accordion-button,.card-title a,.h5,i {
+    /* color: rgba(0,0,0,.9);#439fd54d */
+    background: -webkit-linear-gradient(0deg,#2bd9b1,#00a1ff);
+    font-size: 22px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.carousel-inner .carousel-caption {
+    background: rgba(86, 184, 190, 0.5);
+    border-radius: 10px;
+}
+.nav-link:hover {
+    color: #2bd9b1 !important;
+    font-size: 18px !important;
+    text-shadow: 1px 1px 20px #00a1ff;
+    font-weight:bolder;
+}
+.dropdown-item:hover {
+    background: rgb(53 141 193 / 69%);
+    color: #2bd9b1 !important;
+}
+.btn:hover {
+    border-color: #27cba5;
+    background: -webkit-linear-gradient(0deg,#2bd9b1,#00a1ff);
+    color: #fff !important;
+    font-weight: 900;
+    text-shadow: 1px 1px 5px #808080 !important;
+}
+.stayhealthyimg{
+    height:250px;
+}
+.card-img {
+    transition: 2s;
+}
+.image:hover {
+    width: 360px !important;
+    height: 260px !important;
+}
+.divofh1 {
+    font-size: 22px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    background: radial-gradient(#00bcd4, #29d5d56b);
+    text-shadow: 1px 1px 8px #808080 !important;
+}
+.accordion-button:hover {
+    font-size: 20px;
+    text-shadow: 1px 1px 3px #a7a5a5 !important;
+}
+
+.card-title a:hover{
+    font-size:20px;
+}
+.movingphotoaftertranslate {
+    background-image: url(https://www.missouripartnership.com/wp-content/uploads/2018/01/iStock-695349930.jpg);
+}
+.fixedimg {
+    background-attachment: fixed;
+    background-size: cover;
+    height: 300px
+}
+.move2photo {
+    background-image: url(../images/movephoto2.jpg);
+}
+.carouselmain {
+    background: -webkit-linear-gradient(270deg,#2bd9b1,#00a1ff);
+    height: 570px;
+}
+.comment1 {
+    background-image: linear-gradient(rgb(26 96 100 / 61%),rgb(10 133 110 / 87%)),url(../images/comment1.jpg);
+    transition: 0.3s;
+    margin-left: 80px;
+}
+.comment2 {
+    background-image: linear-gradient(rgb(26 96 100 / 61%),rgb(10 133 110 / 87%)),url(../images/comment2.png);
+    transition: 0.3s;
+}
+.comment3 {
+    background-image: linear-gradient(rgb(26 96 100 / 61%),rgb(10 133 110 / 87%)),url(../images/comment3.png);
+    transition: 0.3s;
+}
+
+.comment {
+    background-size: cover;
+    height: 400px;
+    width: 330px;
+    background-repeat: no-repeat;
+    border: 1px solid aqua;
+    border-radius: 10%;
+    position: relative;
+}
+.comment1:hover {
+    background-image: linear-gradient(rgb(118 124 123 / 55%),rgb(48 121 129)),url(../images/comment1.jpg) !important;
+}
+.comment2:hover {
+    background-image: linear-gradient(rgb(118 124 123 / 55%),rgb(48 121 129)),url(../images/comment2.png) !important;
+}
+.comment3:hover {
+    background-image: linear-gradient(rgb(118 124 123 / 55%),rgb(48 121 129)),url(../images/comment3.png) !important;
+}
+.comment1:hover, .comment2:hover, .comment3:hover {
+    width: 280px;
+    height: 360px;
+    margin-top: 20px;
+}
+    .comment1:hover .card-img-overlay, .comment2:hover.card-img-overlay, .comment3:hover.card-img-overlay {
+        margin-top: 20px;
+    }
+   /*------------------------------------------------------------------------------------------------------*/
+   /*styles of health care section*/
+.healthcarecard {
+    box-shadow: -5px 5px 20px 10px rgb(201 198 241);
+    height: 400px;
+    width: 684px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    flex-wrap:wrap;
+}
+    .healthcarecard img {
+        width: 343px;
+        height: 499px;
+        position: absolute;
+        right: 0;
+        clip-path: polygon(-14% -5%, 18424% 139%, 22% 129%);
+        transition: 0.5s;
+        object-fit: cover;
+    }
+        .healthcarecard:hover img {
+            height: 560px;
+            width: 380px;
+            background-size:20px;
+        }
+.healthcarecard-title a{
+    text-decoration:none;
+}
+.healthcarecard:hover .item {
+    animation-name: example;
+    animation-duration: 2s;
+}
+@keyframes example {
+    from {
+        width: 10%;
+    }
+
+    to {
+        width: 25%;
+        
+    }
+}
+.buttons button{
+    width:160px;
+}
+.healthcarecard:hover .item2 {
+    animation-name: example2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example2 {
+    from {
+       transform:translateX(10px);
+    }
+
+    to {
+        transform: translateX(350px);
+    }
+}
+.item2:hover{
+    animation-play-state:paused;
+}
+.linksofrightside {
+    z-index: 100;
+    position: fixed;
+    right: -1050px;
+    margin-top:150px;
+    
+}
+.linksofrightside i{
+   margin-bottom:20px;
+   transition:0.2s;
+}
+    .linksofrightside a{
+        width:300px !important;
+    }
+    .linksofrightside i:hover {
+        background: -webkit-linear-gradient(rgb(118 124 123 / 55%),rgb(48 121 129));
+        -webkit-background-clip: text;
+        border-radius: 70%;
+    }
+    /*section of join us-----------------------------------------------*/
+.divonimg{
+    transition:1s;
+}
+.joinofimgs {
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    background-repeat: no-repeat;
+    border: 1px solid aqua;
+    border-radius: 10%;
+    transition: 0.5s;
+    box-shadow: -5px 5px 20px 10px rgb(201 198 241);
+}
+.joinimg1 {
+    background-image: url(../images/facebookicon.png);
+}
+    .joinimg1:hover {
+        background-image: linear-gradient(rgb(118 124 123 / 35%),rgb(48 111 129)),url(../images/facebookicon.png) !important;
+    }
+.joinimg2 {
+    background-image: url(../images/whatsicon2.png);
+}
+
+    .joinimg2:hover {
+        background-image: linear-gradient(rgb(118 124 123 / 35%),rgb(48 111 129)),url(../images/whatsicon2.png) !important;
+    }
+
+.joinimg3 {
+    background-image: url(../images/twittericon.png);
+}
+
+    .joinimg3:hover {
+        background-image: linear-gradient(rgb(118 124 123 / 35%),rgb(48 111 129)),url(../images/twittericon.png) !important;
+    }
+.joinimg4 {
+    background-image: url(../images/instegramicon.png);
+}
+
+    .joinimg4:hover {
+        background-image: linear-gradient(rgb(118 124 123 / 35%),rgb(48 111 129)),url(../images/instegramicon.png) !important;
+    }
+.joinimg5 {
+    background-image: url(../images/linkedinicon.png);
+}
+
+    .joinimg5:hover {
+        background-image: linear-gradient(rgb(118 124 123 / 35%),rgb(48 111 129)),url(../images/linkedinicon.png) !important;
+    }
+
+.divofjoin a {
+    text-decoration: none;
+}
+.divofjoin a:hover {
+    color: rgb(118 124 123 / 35%) !important;
+}
+.imginfooter {
+    background-image: url(../images/medicallogo.png);
+    height: 89px;
+    width: 136px;
+    background-size: cover;
+    box-shadow: -5px -1px 42px 24px rgb(201 198 241);
+}
+    .imginfooter:hover {
+        background-image: linear-gradient(rgb(118 124 123 / 25%),rgb(48 111 119)),url(../images/medicallogo.png) !important;
+    }
+    /*-------------------------------------------------------------------------------*/
+   /*section of moving photo*/
+
+.cardover::before {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    background-color: #00dbde;
+    opacity: 0.3;
+    transition: 1s;
+}
+    .cardover::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    background-color: #00dbde;
+    opacity: 0.3;
+    transition: 1s;
+}
+.cardover:hover::after {
+    width: 100%;
+    height: 100%;
+    background-color: #00dbde4f;
+}
+.cardover:hover:before {
+    width: 100%;
+    height: 100%;
+    background-color: #00dbde4f;
+}
+
+.unlimitedimg2{
+    height:370px;
+}
+.acrossimg {
+    height: 363px;
+}
+.familyimg {
+    height: 315px;
+}
+.ask {
+    transform: translate(85px,-62px);
+}
+.links {
+    transform: translate(85px,-62px);
+}
+.vision {
+    transform: translate(55px,-62px);
+}
+@media (max-width: 455px) {
+    .comment {
+        width: 285px;
+        margin-left: 6px;
+    }
+}
+@media (min-width:455px) and (max-width: 511px) {
+    .comment {
+        width: 285px;
+        margin-left: 50px;
+    }
+}
+
+@media (min-width:511px) and (max-width: 575px) {
+    .comment {
+        margin-left: 50px;
+    }
+    
+}
+    @media (max-width: 450px) {
+        .buttons button {
+            font-size: 10px;
+            width: 99px;
+        }
+
+        .healthcarecard-title-txt {
+            padding-right: 79px;
+            font-size: 13px;
+        }
+
+        .healthcarecard img {
+            width: 130px;
+        }
+
+            .healthcarecard img:hover {
+                width: 150px;
+            }
+
+        .healthcarebody {
+            width: 300px;
+        }
+
+            .healthcarebody h4 {
+                display: none;
+            }
+
+        .btn1 {
+            transform: translate(-23px, -44px);
+        }
+
+        .btn2 {
+            transform: translate(-57px, -44px);
+        }
+
+        .btn3 {
+            transform: translate(177px, -83px);
+        }
+
+        .ask,.links,.vision {
+            transform: translate(-10px,1px);
+        }
+      
+    }
+
+    @media (min-width:450px) and (max-width: 575px) {
+
+        .healthcarecard img {
+            width: 170px;
+        }
+
+            .healthcarecard img:hover {
+                width: 190px;
+            }
+
+        .healthcarebody {
+            width: 300px;
+        }
+
+            .healthcarebody h4 {
+                display: none;
+            }
+
+        .btn1 {
+            transform: translate(-23px, -44px);
+        }
+
+        .btn2 {
+            transform: translate(138px, -85px);
+        }
+
+        .btn3 {
+            transform: translate(299px, -127px);
+        }
+    }
+
+    @media (min-width:645px) {
+        .healthcarecard img {
+            width: 251px;
+        }
+
+            .healthcarecard img:hover {
+                width: 253px;
+            }
+    }
+@media (max-width:416px) {
+
+    .linksofrightside {
+        z-index: 100;
+        position: fixed;
+        right: -1050px;
+        margin-top: 150px;
+        left: -546px;
+    }
+}
+@media (min-width:417px) and (max-width:576px) {
+
+    .linksofrightside {
+        z-index: 100;
+        position: fixed;
+        right: -1050px;
+        margin-top: 150px;
+        left: -368px;
+    }
+}
+
+    @media (min-width:576px) and (max-width: 767px) {
+        .comment {
+            margin-left: 80px;
+        }
+
+        .healthcarecard img {
+            width: 201px;
+        }
+
+            .healthcarecard img:hover {
+                width: 214px;
+            }
+
+        .healthcarebody {
+            width: 300px;
+        }
+
+            .healthcarebody h4 {
+                display: none;
+            }
+
+        .btn1 {
+            transform: translate(-11px, -44px);
+        }
+
+        .btn2 {
+            transform: translate(85px, -44px);
+        }
+
+        .btn3 {
+            transform: translate(183px, -44px);
+        }
+
+        .linksofrightside {
+            z-index: 100;
+            position: fixed;
+            right: -1050px;
+            margin-top: 150px;
+            left: -55px;
+        }
+    }
+
+    @media (min-width:903px) and (max-width: 950px) {
+        .comment {
+            width: 250px;
+        }
+
+        .comment1 {
+            margin-left: 0;
+        }
+
+        .linksofrightside {
+            z-index: 100;
+            position: fixed;
+            right: -1050px;
+            margin-top: 150px;
+            left: 754px;
+        }
+    }
+@media (min-width:768px) and (max-width: 919px) {
+    .linksofrightside {
+        z-index: 100;
+        position: fixed;
+        right: -860px;
+        margin-top: 150px;
+        left: 305px;
+    }
+}
+@media (min-width:919px) and (max-width: 992px) {
+    .linksofrightside {
+        z-index: 100;
+        position: fixed;
+        right: -1049px;
+        margin-top: 150px;
+        left: 305px;
+    }
+}
+
+@media (min-width:992px) and (max-width: 1200px) {
+    .linksofrightside {
+        z-index: 100;
+        position: fixed;
+        right: -1465px;
+        margin-top: 150px;
+        left: 305px;
+    }
+}
+
+@media (min-width:1200px) {
+    .linksofrightside {
+        z-index: 100;
+        position: fixed;
+        right: -1965px;
+        margin-top: 150px;
+        left: 305px;
+    }
+}
+    
+    @media (min-width:950px) and (max-width: 1040px) {
+        .comment {
+            width: 270px;
+        }
+
+        @media (min-width:768px) {
+            .comment1 {
+                margin-left: 0;
+            }
+
+           
+        }
+
+     
+        /*
+        @media (min-width:459px) and (max-width:519px) {
+
+            .linksofrightside {
+                left: -260px;
+            }
+        }
+
+        @media (min-width:519px) and (max-width:757px) {
+
+            .linksofrightside {
+                left: -138px;
+            }
+        }
+
+        @media (min-width:768px) and (max-width: 919px) {
+            .linksofrightside {
+                z-index: 100;
+                position: fixed;
+                right: -860px;
+                margin-top: 150px;
+                left: 305px;
+            }
+        }
+       
+        @media (min-width:919px) and (max-width: 992px) {
+            .linksofrightside {
+                z-index: 100;
+                position: fixed;
+                right: -1049px;
+                margin-top: 150px;
+                left: 305px;
+            }
+        }
+
+        @media (min-width:992px) and (max-width: 1200px) {
+            .linksofrightside {
+                z-index: 100;
+                position: fixed;
+                right: -1465px;
+                margin-top: 150px;
+                left: 305px;
+            }
+        }
+
+        @media (min-width:1200px) {
+            .linksofrightside {
+                z-index: 100;
+                position: fixed;
+                right: -1965px;
+                margin-top: 150px;
+                left: 305px;
+            }
+        }
+            */
+    /*
+    .acrossimg {
+        height: 198px;
+    }
+
+    .familyimg {
+        height: 171px;
+    }
+}
+@media (min-width:931px)and (max-width: 980px) {
+    .unlimitedimg {
+        height: 287px;
+    }
+}
+    */
